@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "129036757426",
+    "firebase_url": "https://payments-by-epaisa.firebaseio.com",
+    "project_id": "payments-by-epaisa",
+    "storage_bucket": "payments-by-epaisa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129036757426:android:43d7107c10462bb6",
+        "android_client_info": {
+          "package_name": "com.epaisapos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129036757426-1a9tgvtiiiddou8ii36ha36sj0do05i2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7h6jIEeottx0-vfWTEkKFYAIJsyzxg-c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129036757426:android:df8a46c35109242e",
+        "android_client_info": {
+          "package_name": "com.payments"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129036757426-1a9tgvtiiiddou8ii36ha36sj0do05i2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7h6jIEeottx0-vfWTEkKFYAIJsyzxg-c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

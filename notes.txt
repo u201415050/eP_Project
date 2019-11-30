@@ -1,0 +1,324 @@
+ methods: 
+     [ { name: 'Citrus',
+         iconName: 'Citrus',
+         parent: 'DigitalWalletPayments' },
+       { name: 'Freecharge',
+
+         iconName: 'Freecharge',
+         parent: 'DigitalWalletPayments' },
+       { name: 'OLAMoney',
+         iconName: 'OLAMoney',
+         parent: 'DigitalWalletPayments' },
+       { name: 'Mobikwik',
+         iconName: 'Mobikwik',
+         parent: 'DigitalWalletPayments' },
+       { name: 'm-Pesa',
+         iconName: 'm-Pesa',
+         parent: 'DigitalWalletPayments' },
+       { name: 'Pockets',
+         iconName: 'Pockets',
+         parent: 'DigitalWalletPayments' } ],
+    dropdown: true,
+    tendering: undefined },
+  { iconName: 'UpiPayments',
+    name: 'UPI',
+    methods: 
+     [ { name: 'UPI', iconName: 'UPI', parent: 'UpiPayments' },
+       { name: 'UPIQR', iconName: 'UPIQR', parent: 'UpiPayments' } ],
+    dropdown: true,
+    tendering: undefined },
+  { iconName: 'Split',
+    name: 'Split',
+    methods: [],
+    dropdown: false,
+    tendering: undefined },
+  { iconName: 'EmiPayments',
+    name: 'EMI',
+    methods: [],
+    dropdown: false,
+    tendering: undefined },
+  { iconName: 'AadhaarPay',
+    name: 'Aadhaar',
+    methods: [],
+    dropdown: false,
+    tendering: undefined },
+  { iconName: 'Cheque',
+    name: 'Cheque',
+    methods: [],
+    dropdown: false,
+    tendering: undefined } ]
+2019-05-22 15:09:46.698069-0500 project_1[398:20514] 'DATAITEMS', [ { iconName: 'CardPayments',
+    name: 'Card',
+    methods: 
+     [ { name: 'Visa', iconName: 'Visa', parent: 'CardPayments' },
+       { name: 'MasterCard',
+         iconName: 'MasterCard',
+         parent: 'CardPayments' },
+       { name: 'Rupay', iconName: 'Rupay', parent: 'CardPayments' },
+       { name: 'Maestro', iconName: 'Maestro', parent: 'CardPayments' },
+       { name: 'Discover',
+         iconName: 'Discover',
+         parent: 'CardPayments' },
+       { name: 'DinersClub',
+         iconName: 'DinersClub',
+         parent: 'CardPayments' } ],
+    dropdown: false,
+    tendering: undefined },
+  { iconName: 'CashPayments',
+    name: 'Cash',
+    methods: [],
+    dropdown: false,
+    tendering: '1' },
+  { iconName: 'DigitalWalletPayments',
+    name: 'Wallet',
+    methods: 
+     [ { name: 'Citrus',
+         iconName: 'Citrus',
+         parent: 'DigitalWalletPayments' },
+       { name: 'Freecharge',
+         iconName: 'Freecharge',
+         parent: 'DigitalWalletPayments' },
+       { name: 'OLAMoney',
+         iconName: 'OLAMoney',
+         parent: 'DigitalWalletPayments' },
+       { name: 'Mobikwik',
+         iconName: 'Mobikwik',
+         parent: 'DigitalWalletPayments' },
+       { name: 'm-Pesa',
+         iconName: 'm-Pesa',
+         parent: 'DigitalWalletPayments' },
+       { name: 'Pockets',
+         iconName: 'Pockets',
+         parent: 'DigitalWalletPayments' } ],
+    dropdown: true,
+    tendering: undefined },
+  { iconName: 'UpiPayments',
+    name: 'UPI',
+    methods: 
+     [ { name: 'UPI', iconName: 'UPI', parent: 'UpiPayments' },
+       { name: 'UPIQR', iconName: 'UPIQR', parent: 'UpiPayments' } ],
+    dropdown: true,
+    tendering: undefined },
+  { iconName: 'Split',
+    name: 'Split',
+    methods: [],
+    dropdown: false,
+    tendering: undefined },
+  { iconName: 'EmiPayments',
+    name: 'EMI',
+    methods: [],
+    dropdown: false,
+    tendering: undefined },
+  { iconName: 'AadhaarPay',
+    name: 'Aadhaar',
+    methods: [],
+    dropdown: false,
+    tendering: undefined },
+  { iconName: 'Cheque',
+    name: 'Cheque',
+    methods: [],
+    dropdown: false,
+    tendering: undefined } ]
+2019-05-22 15:09:47.060 [error][tid:com.facebook.react.JavaScript] 'Warning: Can\'t call %s on a component that is not yet mounted. This is a no-op, but it might indicate a bug in your application. Instead, assign to `this.state` directly or define a `state = {};` class property with the desired state in the %s component.', 'setState', 'CardPayments'
+2019-05-22 15:09:47.060350-0500 project_1[398:20514] 'Warning: Can\'t call %s on a component that is not yet mounted. This is a no-op, but it might indicate a bug in your application. Instead, assign to `this.state` directly or define a `state = {};` class property with the desired state in the %s component.', 'setState', 'CardPayments'
+2019-05-22 15:09:47.079 [info][tid:com.facebook.react.JavaScript] 'EXTRADATA', '####28765####36####25####10.00####'
+2019-05-22 15:09:47.079087-0500 project_1[398:20514] 'EXTRADATA', '####28765####36####25####10.00####'
+2019-05-22 15:09:47.080 [info][tid:com.facebook.react.JavaScript] 'JSON', { deviceId: 109,
+  deviceProcessorId: 10,
+  username: 'O0b8ONV-_TvhOQiTTzvZvQ,,',
+  password: 'Yr-iOiuUj1w,' }
+2019-05-22 15:09:47.080117-0500 project_1[398:20514] 'JSON', { deviceId: 109,
+  deviceProcessorId: 10,
+  username: 'O0b8ONV-_TvhOQiTTzvZvQ,,',
+  password: 'Yr-iOiuUj1w,' }
+2019-05-22 15:09:47.081 [info][tid:com.facebook.react.JavaScript] YK2XXrhQrIL3nsLbbj3Xw1oe2FjklONlkXc6zUKlWxER_RsXPkYGxYeNVS2E3qxT####28765####36####25####10.00########{"deviceId":109,"deviceProcessorId":10,"username":"O0b8ONV-_TvhOQiTTzvZvQ,,","password":"Yr-iOiuUj1w,"}
+2019-05-22 15:09:47.080795-0500 project_1[398:20514] YK2XXrhQrIL3nsLbbj3Xw1oe2FjklONlkXc6zUKlWxER_RsXPkYGxYeNVS2E3qxT####28765####36####25####10.00########{"deviceId":109,"deviceProcessorId":10,"username":"O0b8ONV-_TvhOQiTTzvZvQ,,","password":"Yr-iOiuUj1w,"}
+2019-05-22 15:09:47.087 [info][tid:com.facebook.react.JavaScript] 'JSON encryptRequest', 'RlZOxb8JcUZUBrftQTEtafEaMhZMFAXYh3eunBX2jS6kFxqwprrE0fVSVUjjBXnKKPonnxYHBAK80nngJD77weHl//9SYAVdWedteW3WS6cm/QWDsmz/dHSTMhkb5Go5YYNC4mRKuTavAo2JS5tTbMY4KKG/EJv1GyKZCAqlbA1B1QdfPBGjPKo3c6VDwWyEbySp1jWKbI4c3Aa2hoPvD0cj0+BYwvw7433bu5w2QvcX2SdA3fqfGRdPAsUzc+MHC8mPiYQ2Ce0WU39ZnrGFBA=='
+2019-05-22 15:09:47.087194-0500 project_1[398:20514] 'JSON encryptRequest', 'RlZOxb8JcUZUBrftQTEtafEaMhZMFAXYh3eunBX2jS6kFxqwprrE0fVSVUjjBXnKKPonnxYHBAK80nngJD77weHl//9SYAVdWedteW3WS6cm/QWDsmz/dHSTMhkb5Go5YYNC4mRKuTavAo2JS5tTbMY4KKG/EJv1GyKZCAqlbA1B1QdfPBGjPKo3c6VDwWyEbySp1jWKbI4c3Aa2hoPvD0cj0+BYwvw7433bu5w2QvcX2SdA3fqfGRdPAsUzc+MHC8mPiYQ2Ce0WU39ZnrGFBA=='
+2019-05-22 15:09:47.093 [info][tid:com.facebook.react.JavaScript] 'BASE URI: ', 'https://development.epaisa.com/payment/process'
+2019-05-22 15:09:47.093039-0500 project_1[398:20514] 'BASE URI: ', 'https://development.epaisa.com/payment/process'
+2019-05-22 15:09:47.094 [info][tid:com.facebook.react.JavaScript] 'sendRequest ENCRYPARAM: ', 'RlZOxb8JcUZUBrftQTEtafEaMhZMFAXYh3eunBX2jS6kFxqwprrE0fVSVUjjBXnKKPonnxYHBAK80nngJD77weHl//9SYAVdWedteW3WS6cm/QWDsmz/dHSTMhkb5Go5YYNC4mRKuTavAo2JS5tTbMY4KKG/EJv1GyKZCAqlbA1B1QdfPBGjPKo3c6VDwWyEbySp1jWKbI4c3Aa2hoPvD0cj0+BYwvw7433bu5w2QvcX2SdA3fqfGRdPAsUzc+MHC8mPiYQ2Ce0WU39ZnrGFBA=='
+2019-05-22 15:09:47.093756-0500 project_1[398:20514] 'sendRequest ENCRYPARAM: ', 'RlZOxb8JcUZUBrftQTEtafEaMhZMFAXYh3eunBX2jS6kFxqwprrE0fVSVUjjBXnKKPonnxYHBAK80nngJD77weHl//9SYAVdWedteW3WS6cm/QWDsmz/dHSTMhkb5Go5YYNC4mRKuTavAo2JS5tTbMY4KKG/EJv1GyKZCAqlbA1B1QdfPBGjPKo3c6VDwWyEbySp1jWKbI4c3Aa2hoPvD0cj0+BYwvw7433bu5w2QvcX2SdA3fqfGRdPAsUzc+MHC8mPiYQ2Ce0WU39ZnrGFBA=='
+2019-05-22 15:09:47.111 [info][tid:com.facebook.react.JavaScript] {}
+2019-05-22 15:09:47.111521-0500 project_1[398:20514] {}
+2019-05-22 15:09:47.115 [info][tid:com.facebook.react.JavaScript] { totals_totals: { subtotal: 0, taxes: [], total: 0, taxesGroup: {} } }
+2019-05-22 15:09:47.115065-0500 project_1[398:20514] { totals_totals: { subtotal: 0, taxes: [], total: 0, taxesGroup: {} } }
+2019-05-22 15:09:47.185117-0500 project_1[398:20729] [] nw_socket_handle_socket_event [C51.1:1] Socket SO_ERROR [61: Connection refused]
+2019-05-22 15:09:47.186430-0500 project_1[398:20729] [] nw_socket_handle_socket_event [C51.2:1] Socket SO_ERROR [61: Connection refused]
+2019-05-22 15:09:47.186888-0500 project_1[398:20488] [] nw_connection_get_connected_socket [C51] Client called nw_connection_get_connected_socket on unconnected nw_connection
+2019-05-22 15:09:47.186932-0500 project_1[398:20488] TCP Conn 0x281d12f40 Failed : error 0:61 [61]
+2019-05-22 15:09:47.342 [info][tid:com.facebook.react.JavaScript] 'EXTRADATA', ''
+2019-05-22 15:09:47.341974-0500 project_1[398:20514] 'EXTRADATA', ''
+2019-05-22 15:09:47.342 [info][tid:com.facebook.react.JavaScript] 'JSON', ''
+2019-05-22 15:09:47.342695-0500 project_1[398:20514] 'JSON', ''
+2019-05-22 15:09:47.343 [info][tid:com.facebook.react.JavaScript] YK2XXrhQrIL3nsLbbj3Xw1oe2FjklONlkXc6zUKlWxER_RsXPkYGxYeNVS2E3qxT
+2019-05-22 15:09:47.343222-0500 project_1[398:20514] YK2XXrhQrIL3nsLbbj3Xw1oe2FjklONlkXc6zUKlWxER_RsXPkYGxYeNVS2E3qxT
+2019-05-22 15:09:47.346 [info][tid:com.facebook.react.JavaScript] 'JSON encryptRequest', 'RlZOxb8JcUZUBrftQTEtafEaMhZMFAXYh3eunBX2jS6kFxqwprrE0fVSVUjjBXnKKPonnxYHBAK80nngJD77wTDIMWWPYffd'
+2019-05-22 15:09:47.346388-0500 project_1[398:20514] 'JSON encryptRequest', 'RlZOxb8JcUZUBrftQTEtafEaMhZMFAXYh3eunBX2jS6kFxqwprrE0fVSVUjjBXnKKPonnxYHBAK80nngJD77wTDIMWWPYffd'
+2019-05-22 15:09:47.350 [info][tid:com.facebook.react.JavaScript] 'BASE URI: ', 'https://development.epaisa.com/notifications/list'
+2019-05-22 15:09:47.349959-0500 project_1[398:20514] 'BASE URI: ', 'https://development.epaisa.com/notifications/list'
+2019-05-22 15:09:47.639 [error][tid:com.facebook.react.JavaScript] 'Warning: Can\'t perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in %s.%s', 'the componentWillUnmount method', '\n    in List (at table.js:19)'
+2019-05-22 15:09:47.639545-0500 project_1[398:20514] 'Warning: Can\'t perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in %s.%s', 'the componentWillUnmount method', '\n    in List (at table.js:19)'
+2019-05-22 15:09:47.694 [info][tid:com.facebook.react.JavaScript] { type: 'default',
+  status: 200,
+  ok: true,
+  statusText: undefined,
+  headers: 
+   { map: 
+      { server: 'Apache',
+        connection: 'Keep-Alive',
+        'content-type': 'application/json; charset=UTF-8',
+        'x-frame-options': 'SAMEORIGIN',
+        'x-debug-duration': '153',
+        'cache-control': 'no-cache, must-revalidate',
+        'x-debug-link': '/debug/default/view?tag=5ce5ac8b55519',
+        date: 'Wed, 22 May 2019 20:09:47 GMT',
+        'x-debug-tag': '5ce5ac8b55519',
+        'content-length': '566',
+        'keep-alive': 'timeout=5, max=97' } },
+  url: 'https://development.epaisa.com/payment/process',
+  _bodyInit: 
+   { _data: 
+      { size: 566,
+        offset: 0,
+        blobId: '6490BA13-1721-4BA6-8470-91CCEDAD6A71',
+        type: 'application/json',
+        name: 'process' } },
+  _bodyBlob: 
+   { _data: 
+      { size: 566,
+        offset: 0,
+        blobId: '6490BA13-1721-4BA6-8470-91CCEDAD6A71',
+        type: 'application/json',
+        name: 'process' } } }
+2019-05-22 15:09:47.695833-0500 project_1[398:20514] { type: 'default',
+  status: 200,
+  ok: true,
+  statusText: undefined,
+  headers: 
+   { map: 
+      { server: 'Apache',
+        connection: 'Keep-Alive',
+        'content-type': 'application/json; charset=UTF-8',
+        'x-frame-options': 'SAMEORIGIN',
+        'x-debug-duration': '153',
+        'cache-control': 'no-cache, must-revalidate',
+        'x-debug-link': '/debug/default/view?tag=5ce5ac8b55519',
+        date: 'Wed, 22 May 2019 20:09:47 GMT',
+        'x-debug-tag': '5ce5ac8b55519',
+        'content-length': '566',
+        'keep-alive': 'timeout=5, max=97' } },
+  url: 'https://development.epaisa.com/payment/process',
+  _bodyInit: 
+   { _data: 
+      { size: 566,
+        offset: 0,
+        blobId: '6490BA13-1721-4BA6-8470-91CCEDAD6A71',
+        type: 'application/json',
+        name: 'process' } },
+  _bodyBlob: 
+   { _data: 
+      { size: 566,
+        offset: 0,
+        blobId: '6490BA13-1721-4BA6-8470-91CCEDAD6A71',
+        type: 'application/json',
+        name: 'process' } } }
+2019-05-22 15:09:47.709 [info][tid:com.facebook.react.JavaScript] RlZOxb8JcUZUBrftQTEtafEaMhZMFAXYh3eunBX2jS6kFxqwprrE0fVSVUjjBXnKKPonnxYHBAK80nngJD77weHl//9SYAVdWedteW3WS6cm/QWDsmz/dHSTMhkb5Go5YYNC4mRKuTavAo2JS5tTbMY4KKG/EJv1GyKZCAqlbA1B1QdfPBGjPKo3c6VDwWyEbySp1jWKbI4c3Aa2hoPvD0cj0+BYwvw7433bu5w2QvcX2SdA3fqfGRdPAsUzc+MHC8mPiYQ2Ce0WU39ZnrGFBA==
+2019-05-22 15:09:47.709193-0500 project_1[398:20514] RlZOxb8JcUZUBrftQTEtafEaMhZMFAXYh3eunBX2jS6kFxqwprrE0fVSVUjjBXnKKPonnxYHBAK80nngJD77weHl//9SYAVdWedteW3WS6cm/QWDsmz/dHSTMhkb5Go5YYNC4mRKuTavAo2JS5tTbMY4KKG/EJv1GyKZCAqlbA1B1QdfPBGjPKo3c6VDwWyEbySp1jWKbI4c3Aa2hoPvD0cj0+BYwvw7433bu5w2QvcX2SdA3fqfGRdPAsUzc+MHC8mPiYQ2Ce0WU39ZnrGFBA==
+2019-05-22 15:09:47.710 [info][tid:com.facebook.react.JavaScript] { success: 1,
+  response: 
+   { merchantId: 4075,
+     userId: 4114,
+     paymentId: 28765,
+     transactionTypeId: 36,
+     transactionStatusId: 1,
+     transactionCurrencyId: 25,
+     transactionAmount: '10.00',
+     status: 0,
+     applicationId: 1,
+     created_at: 1558555787,
+     updated_at: 1558555787,
+     createdUserId: 4114,
+     checksum: '-Z2nt-hjZGKAsoy0GR5Lz9a59V1ugAbuKWm7Crf9wRZEenUIqG44wi6YlSlxIcRJSwoSDo9o-wv4Rd6vC5pYZvh5tk-SsRVw',
+     transactionId: 26992 } }
+2019-05-22 15:09:47.714689-0500 project_1[398:20514] { success: 1,
+  response: 
+   { merchantId: 4075,
+     userId: 4114,
+     paymentId: 28765,
+     transactionTypeId: 36,
+     transactionStatusId: 1,
+     transactionCurrencyId: 25,
+     transactionAmount: '10.00',
+     status: 0,
+     applicationId: 1,
+     created_at: 1558555787,
+     updated_at: 1558555787,
+     createdUserId: 4114,
+     checksum: '-Z2nt-hjZGKAsoy0GR5Lz9a59V1ugAbuKWm7Crf9wRZEenUIqG44wi6YlSlxIcRJSwoSDo9o-wv4Rd6vC5pYZvh5tk-SsRVw',
+     transactionId: 26992 } }
+2019-05-22 15:09:47.724 [info][tid:com.facebook.react.JavaScript] { paymentProcess: '{"success":1,"response":{"merchantId":4075,"userId":4114,"paymentId":28765,"transactionTypeId":36,"transactionStatusId":1,"transactionCurrencyId":25,"transactionAmount":"10.00","status":0,"applicationId":1,"created_at":1558555787,"updated_at":1558555787,"createdUserId":4114,"checksum":"-Z2nt-hjZGKAsoy0GR5Lz9a59V1ugAbuKWm7Crf9wRZEenUIqG44wi6YlSlxIcRJSwoSDo9o-wv4Rd6vC5pYZvh5tk-SsRVw","transactionId":26992}}' }
+2019-05-22 15:09:47.728778-0500 project_1[398:20514] { paymentProcess: '{"success":1,"response":{"merchantId":4075,"userId":4114,"paymentId":28765,"transactionTypeId":36,"transactionStatusId":1,"transactionCurrencyId":25,"transactionAmount":"10.00","status":0,"applicationId":1,"created_at":1558555787,"updated_at":1558555787,"createdUserId":4114,"checksum":"-Z2nt-hjZGKAsoy0GR5Lz9a59V1ugAbuKWm7Crf9wRZEenUIqG44wi6YlSlxIcRJSwoSDo9o-wv4Rd6vC5pYZvh5tk-SsRVw","transactionId":26992}}' }
+2019-05-22 15:09:47.730 [error][tid:com.facebook.react.JavaScript] 'Warning: Can\'t perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in %s.%s', 'the componentWillUnmount method', '\n    in ItemsContainer (created by Context.Consumer)\n    in Connect(ItemsContainer) (at cashScreen.js:349)\n    in RCTView (at View.js:45)\n    in View (at ImageBackground.js:63)\n    in ImageBackground (at cashScreen.js:332)\n    in RCTView (at View.js:45)\n    in View (at cashScreen.js:331)\n    in RCTSafeAreaView (at SafeAreaView.js:45)\n    in SafeAreaView (at cashScreen.js:317)\n    in CashScreen (created by Context.Consumer)\n    in Connect(CashScreen) (created by SceneView)\n    in SceneView (at StackViewLayout.js:793)\n    in RCTView (at View.js:45)\n    in View (at createAnimatedComponent.js:151)\n    in AnimatedComponent (at StackViewCard.js:69)\n    in RCTView (at View.js:45)\n    in View (at createAnimatedComponent.js:151)\n    in AnimatedComponent (at screens.native.js:58)\n    in Screen (at StackViewCard.js:57)\n    in Card (at createPointerEventsContainer.js:27)\n    in Container (at StackViewLayout.js:858)'
+2019-05-22 15:09:47.738378-0500 project_1[398:20514] 'Warning: Can\'t perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in %s.%s', 'the componentWillUnmount method', '\n    in ItemsContainer (created by Context.Consumer)\n    in Connect(ItemsContainer) (at cashScreen.js:349)\n    in RCTView (at View.js:45)\n    in View (at ImageBackground.js:63)\n    in ImageBackground (at cashScreen.js:332)\n    in RCTView (at View.js:45)\n    in View (at cashScreen.js:331)\n    in RCTSafeAreaView (at SafeAreaView.js:45)\n    in SafeAreaView (at cashScreen.js:317)\n    in CashScreen (created by Context.Consumer)\n    in Connect(CashScreen) (created by SceneView)\n    in SceneView (at StackViewLayout.js:793)\n    in RCTView (at View.js:45)\n    in View (at createAnimatedComponent.js:151)\n    in AnimatedComponent (at StackViewCard.js:69)\n    in RCTView (at View.js:45)\n    in View (at createAnimatedComponent.js:151)\n    in AnimatedComponent (at screens.native.js:58)\n    in Screen (at StackViewCard.js:57)\n    in Card (at createPointerEventsContainer.js:27)\n    in Container (at StackViewLayout.js:858)'
+2019-05-22 15:09:47.853 [info][tid:com.facebook.react.JavaScript] _setMinHeight called!
+2019-05-22 15:09:47.853033-0500 project_1[398:20514] _setMinHeight called!
+2019-05-22 15:09:47.855 [info][tid:com.facebook.react.JavaScript] { totals_totals: { subtotal: 0, taxes: [], total: 0, taxesGroup: {} } }
+2019-05-22 15:09:47.855569-0500 project_1[398:20514] { totals_totals: { subtotal: 0, taxes: [], total: 0, taxesGroup: {} } }
+2019-05-22 15:09:48.422 [info][tid:com.facebook.react.JavaScript] 'responseJson: ', { success: 1, response: { Notifications: [], total: '0' } }
+2019-05-22 15:09:48.422211-0500 project_1[398:20514] 'responseJson: ', { success: 1, response: { Notifications: [], total: '0' } }
+2019-05-22 15:09:48.811690-0500 project_1[398:20488] Something To Print
+2019-05-22 15:09:48.812104-0500 project_1[398:20488] LoginHelper login {
+    amount = "10.00";
+    clientId = VyBqmaWHtyrbRSMzmbgbOy2I;
+    deviceActive = 0;
+    deviceId = 109;
+    deviceManufacturerName = Wisepad;
+    deviceTypeId = 10;
+    deviceTypeName = G2;
+    manufacturerId = 9;
+    merchantId = 4075;
+    password = 233021;
+    processorId = 10;
+    serialNumber = 10910808174780;
+    transactionId = 26992;
+    url = "https://development.epaisa.com/";
+    userId = 4114;
+    userName = 9633932257;
+}
+2019-05-22 15:09:49.264213-0500 project_1[398:20662] [] nw_socket_handle_socket_event [C54.1:1] Socket SO_ERROR [61: Connection refused]
+2019-05-22 15:09:49.267676-0500 project_1[398:20662] [] nw_socket_handle_socket_event [C54.2:1] Socket SO_ERROR [61: Connection refused]
+2019-05-22 15:09:49.269028-0500 project_1[398:20488] [] nw_connection_get_connected_socket [C54] Client called nw_connection_get_connected_socket on unconnected nw_connection
+2019-05-22 15:09:49.269132-0500 project_1[398:20488] TCP Conn 0x281d15680 Failed : error 0:61 [61]
+2019-05-22 15:09:51.373216-0500 project_1[398:20662] [] nw_socket_handle_socket_event [C55.1:1] Socket SO_ERROR [61: Connection refused]
+2019-05-22 15:09:51.377694-0500 project_1[398:20662] [] nw_socket_handle_socket_event [C55.2:1] Socket SO_ERROR [61: Connection refused]
+2019-05-22 15:09:51.379033-0500 project_1[398:20488] [] nw_connection_get_connected_socket [C55] Client called nw_connection_get_connected_socket on unconnected nw_connection
+2019-05-22 15:09:51.379157-0500 project_1[398:20488] TCP Conn 0x281d15680 Failed : error 0:61 [61]
+2019-05-22 15:09:53.402039-0500 project_1[398:20731] [] nw_socket_handle_socket_event [C56.1:1] Socket SO_ERROR [61: Connection refused]
+2019-05-22 15:09:53.406154-0500 project_1[398:20731] [] nw_socket_handle_socket_event [C56.2:1] Socket SO_ERROR [61: Connection refused]
+2019-05-22 15:09:53.407469-0500 project_1[398:20488] [] nw_connection_get_connected_socket [C56] Client called nw_connection_get_connected_socket on unconnected nw_connection
+2019-05-22 15:09:53.407602-0500 project_1[398:20488] TCP Conn 0x281d14780 Failed : error 0:61 [61]
+2019-05-22 15:09:55.441705-0500 project_1[398:20731] [] nw_socket_handle_socket_event [C57.1:1] Socket SO_ERROR [61: Connection refused]
+2019-05-22 15:09:55.449092-0500 project_1[398:20731] [] nw_socket_handle_socket_event [C57.2:1] Socket SO_ERROR [61: Connection refused]
+2019-05-22 15:09:55.450214-0500 project_1[398:20730] [] nw_connection_get_connected_socket [C57] Client called nw_connection_get_connected_socket on unconnected nw_connection
+2019-05-22 15:09:55.450322-0500 project_1[398:20730] TCP Conn 0x281d17840 Failed : error 0:61 [61]
+2019-05-22 15:09:57.465165-0500 project_1[398:20520] [] nw_socket_handle_socket_event [C58.1:1] Socket SO_ERROR [61: Connection refused]
+2019-05-22 15:09:57.469111-0500 project_1[398:20520] [] nw_socket_handle_socket_event [C58.2:1] Socket SO_ERROR [61: Connection refused]
+2019-05-22 15:09:57.470205-0500 project_1[398:20731] [] nw_connection_get_connected_socket [C58] Client called nw_connection_get_connected_socket on unconnected nw_connection
+2019-05-22 15:09:57.470360-0500 project_1[398:20731] TCP Conn 0x281d17840 Failed : error 0:61 [61]
+2019-05-22 15:09:59.646999-0500 project_1[398:20731] [] nw_socket_handle_socket_event [C59.1:1] Socket SO_ERROR [61: Connection refused]
+2019-05-22 15:09:59.652294-0500 project_1[398:20731] [] nw_socket_handle_socket_event [C59.2:1] Socket SO_ERROR [61: Connection refused]
+2019-05-22 15:09:59.653353-0500 project_1[398:20520] [] nw_connection_get_connected_socket [C59] Client called nw_connection_get_connected_socket on unconnected nw_connection
+2019-05-22 15:09:59.653450-0500 project_1[398:20520] TCP Conn 0x281d15980 Failed : error 0:61 [61]
+2019-05-22 15:10:01.691883-0500 project_1[398:20730] [] nw_socket_handle_socket_event [C60.1:1] Socket SO_ERROR [61: Connection refused]
+2019-05-22 15:10:01.694301-0500 project_1[398:20730] [] nw_socket_handle_socket_event [C60.2:1] Socket SO_ERROR [61: Connection refused]
+2019-05-22 15:10:01.695214-0500 project_1[398:20520] [] nw_connection_get_connected_socket [C60] Client called nw_connection_get_connected_socket on unconnected nw_connection
+2019-05-22 15:10:01.695297-0500 project_1[398:20520] TCP Conn 0x281d3a1c0 Failed : error 0:61 [61]
+2019-05-22 15:10:03.880531-0500 project_1[398:20520] [] nw_socket_handle_socket_event [C61.1:1] Socket SO_ERROR [61: Connection refused]
+2019-05-22 15:10:03.883755-0500 project_1[398:20520] [] nw_socket_handle_socket_event [C61.2:1] Socket SO_ERROR [61: Connection refused]
+2019-05-22 15:10:03.884920-0500 project_1[398:20730] [] nw_connection_get_connected_socket [C61] Client called nw_connection_get_connected_socket on unconnected nw_connection
+2019-05-22 15:10:03.885146-0500 project_1[398:20730] TCP Conn 0x281d3ba80 Failed : error 0:61 [61]
+2019-05-22 15:10:06.088367-0500 project_1[398:20520] [] nw_socket_handle_socket_event [C62.1:1] Socket SO_ERROR [61: Connection refused]
+2019-05-22 15:10:06.091554-0500 project_1[398:20520] [] nw_socket_handle_socket_event [C62.2:1] Socket SO_ERROR [61: Connection refused]
+2019-05-22 15:10:06.092596-0500 project_1[398:20731] [] nw_connection_get_connected_socket [C62] Client called nw_connection_get_connected_socket on unconnected nw_connection
+2019-05-22 15:10:06.092691-0500 project_1[398:20731] TCP Conn 0x281d3a040 Failed : error 0:61 [61]

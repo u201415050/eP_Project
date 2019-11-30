@@ -1,0 +1,1527 @@
+<resources>
+    <string name="app_name">Payments by ePaisa</string>
+    <string name="rnsb_sync_account_type" translatable="false">com.epaisapos</string>
+    <string name="rnsb_content_authority" translatable="false">com.epaisapos.provider</string>
+    <string name="rnsb_default_timeout" translatable="false">300000</string>
+    <string name="rnsb_allow_foreground">true</string>
+    <string name="networkIssue">Network Issue. Please try again later.</string>
+
+
+        <string name="err1">DECLINE CALL ISSUER </string>
+
+        <string name="err02">DECLINE CALL ISSUER </string>
+
+        <string name="err03">Invalid MID/TID </string>
+
+        <string name="err04"> PICKUP CARD </string>
+
+        <string name="err05">DO NOT HONOR </string>
+
+        <string name="err12">Invalid Transaction </string>
+
+        <string name="err13">Invalid Amount </string>
+
+        <string name="err14">Invalid Card Number </string>
+
+        <string name="err15">No such Issuer </string>
+
+        <string name="err30">Format Error</string>
+
+        <string name="err33">Expired Card, Pick-up</string>
+
+        <string name="err34">Suspected Fraud, Pick-up</string>
+
+        <string name="err38">Restricted Card, Pick-up </string>
+
+        <string name="err39">No Credit Account</string>
+
+        <string name="err41">Lost Card, Pick-up</string>
+
+        <string name="err42">No Universal Account </string>
+
+        <string name="err43">Stolen Card, Pick-up </string>
+
+        <string name="err51">Not Sufficient Funds </string>
+
+        <string name="err52">No Check Account </string>
+
+        <string name="err54">Expired Card </string>
+
+        <string name="err55">Incorrect PIN</string>
+
+        <string name="err57">TRANSACTION NOT PERMITTED TO CARDHOLDER </string>
+
+        <string name="err58">TRANSACTION NOT PERMITTED ON TERMINAL </string>
+
+        <string name="err59">SUSPECTED FRAUD </string>
+
+        <string name="err61">Exceeds Withdrawal Limit </string>
+
+        <string name="err62">Restricted Card </string>
+
+        <string name="err63">DEBIT KEY ERROR, CALL HELP </string>
+
+        <string name="err75">PIN Tries Exceeded </string>
+
+        <string name="err89">TID NOT PRESENT, CALL HELP </string>
+
+        <string name="err91">Issuer Switch inoprative</string>
+
+        <string name="err92">Routing Error </string>
+
+        <string name="err95">Reconcile Error </string>
+
+        <string name="err96">System Malfunction  </string>
+
+        <string name="err98">Exceeds Cash Limit </string>
+
+        <string name="err100">Reader Connected</string>
+
+        <string name="err101">Bluetooth Disabled</string>
+
+        <string name="err102">Reader Type Invalid</string>
+
+        <string name="err103">Reader and Mobile not yet paired</string>
+
+        <string name="err104">Reader connected Already</string>
+
+        <string name="err105">Reader Disconnected</string>
+
+        <string name="err106">Reader Error: (Error Message Generated in Runtime)</string>
+
+        <string name="err107">Search Device Error: (Error Message Generated in Runtime while Searching Device)</string>
+
+        <string name="err108">Activate Device Error: (Error Message Generated in Runtime while Activating Device)</string>
+
+        <string name="err109">Connecting Device Error: (Error Message Generated in Runtime while Connecting Device)</string>
+
+        <string name="err110">Device not found. Please check if card reader is on.</string>
+
+        <string name="err119">Transaction Already settled</string>
+
+        <string name="err120">Invalid Invoice</string>
+
+        <string name="err121">Transaction Already voided</string>
+
+        <string name="err127">Need to settelled transactions</string>
+
+        <string name="err200">LOGGED IN</string>
+
+        <string name="err201">Empty Username</string>
+
+        <string name="err202">Empty Password</string>
+
+        <string name="err203">Empty TID</string>
+
+        <string name="err204">Empty MID</string>
+
+        <string name="err205">Connection Timeout</string>
+
+        <string name="err206">Response Timeout</string>
+
+        <string name="err207">Invalid Username or Password</string>
+
+        <string name="err300">SWIPE/INSERT SUCCESS</string>
+
+        <string name="err301">Reader and Mobile Disconnected.</string>
+
+        <string name="err302">Bluetooth Disabled</string>
+
+        <string name="err303">Please Check the Reader is switched on.</string>
+
+        <string name="err304">Transaction not supported at Present.</string>
+
+        <string name="err305">Pan Number is not present in Card Table.</string>
+
+        <string name="err306">EMV Card Swiped. Please Insert Card into Reader.</string>
+
+        <string name="err307">Invalid Amount</string>
+
+        <string name="err316">Transaction offline Declined.</string>
+
+        <string name="err317">Transaction Offline Approved</string>
+
+        <string name="err318">Invalid Certificate Data</string>
+
+        <string name="err319">Invalid Application/AID Selected in Mobile</string>
+
+        <string name="err000">Sale Transaction Success</string>
+
+        <string name="err001">Key Mapping Success (in case of this transaction we need to wait to do next transaction)</string>
+
+        <string name="err002">Session Key Success </string>
+
+        <string name="err003">Void Success</string>
+
+        <string name="err308">Session Establishment Failed</string>
+
+        <string name="err309">ERR-120 Decryption Failed</string>
+
+        <string name="err310">Time Out! Try Again!</string>
+
+        <string name="err311">Session Establishing Failed. Try Again</string>
+
+        <string name="err312">Connection Problem. Please Check GPRS Setting</string>
+
+        <string name="err313">Reversal Timed Out</string>
+
+        <string name="err314">Master Key Empty</string>
+
+        <string name="err315">SESSION KEY EMPTY</string>
+
+        <string name="err320">Invalid Reader Serial No</string>
+
+        <string name="err321">Timeout .. Computing Reversal</string>
+
+        <string name="err322">Completing Success Transaction</string>
+
+        <string name="err323">Reversal Not Present</string>
+
+        <string name="err324">Invalid EMV Tags Received from Host</string>
+
+        <string name="err400">Reader Disconnected</string>
+
+        <string name="err401">Reader and Mobile not yet connected</string>
+
+        <string name="err402">Bluetooth Disabled in Mobile</string>
+
+        <string name="err403">Reader Switched off</string>
+
+        <string name="err404">Error in Disconnection of Reader</string>
+
+        <string name="err500A">Master Key Injection Success</string>
+
+        <string name="err500B">Session Key Injection Success</string>
+
+        <string name="err501">Please Check the Reader is switched on</string>
+
+        <string name="err502">Bluetooth Disabled.</string>
+
+        <string name="err700">EMV Parameters Loaded Successfully</string>
+
+        <string name="err701">Reader and Mobile not yet connected</string>
+
+        <string name="err702">Bluetooth Disabled in Mobile</string>
+
+        <string name="err703">Please Check the Reader is switched on.</string>
+
+        <string name="err1001">Cancel Button Has Been Clicked By the User</string>
+
+        <string name="err1002">Invalid Transmitted Data Length</string>
+
+        <string name="err1003">Reader Does Not Support This Instruction</string>
+
+        <string name="err1004">Invalid Parameters</string>
+
+        <string name="err1005">Not A Valid Command At This Point</string>
+
+        <string name="err1006">Timeout Has Expired</string>
+
+        <string name="err1007">Card Reader General Error</string>
+
+        <string name="err1008">Transaction Aborted By User Pressing the Cancel Button</string>
+
+        <string name="err1009">Battery Too Low</string>
+
+        <string name="err1011">Pin Try Limit Already Exceeded</string>
+
+        <string name="err1012">Magnetic Card Reader Is In Wrong State for Command Issued</string>
+
+        <string name="err1013">Magnetic Card Background Data Is Not Available</string>
+
+        <string name="err1014">EMV Tag Data Are Missing</string>
+
+        <string name="err1015">Reader Storage Capacity Is Full</string>
+
+        <string name="err1016">Not an EMV Card or Card Is Error</string>
+
+        <string name="err1017">No Mutually Supported AIDs</string>
+
+        <string name="err1018">AIDs Not In List of Supported AIDs</string>
+
+        <string name="err1019">DOL is Not Configured</string>
+
+        <string name="err1020">RSA Keys Not Found</string>
+
+        <string name="err1021">RSA Keys Are Not Available</string>
+
+        <string name="err1022">Duplicate RSA Keys</string>
+
+        <string name="err1023">Duplicate AID</string>
+
+        <string name="err1024">Application Blocked</string>
+
+        <string name="err1025">Card Blocked</string>
+
+        <string name="err1026">Card Has Ben Inserted But Insertion Is Disabled</string>
+
+        <string name="err1027">Error in Risk Parameter That Has Been Submitted</string>
+
+        <string name="err1028">Card Expired</string>
+
+        <string name="err1029">Card Not Yet Valid</string>
+
+        <string name="err1031">Track Data Is Not Available</string>
+
+        <string name="err1032">Master or Session KCV Does Not Match</string>
+
+        <string name="err1033">Master or Session Key Not Found</string>
+
+        <string name="err1034">Master or Session Pin Encryption Failed</string>
+
+        <string name="err1035">TDESDUCKPT Key Injection Failed</string>
+
+        <string name="err1036">TDESDUCKPT Key Not Found</string>
+
+        <string name="err1037">TDESDUCKPT Pin Change Fail to Complete Success</string>
+
+        <string name="err1038">TDESDUCKPT Encryption ORMAC Calculation Failed</string>
+
+        <string name="err1039">Reader Has Timed Out</string>
+
+        <string name="err5001">Reader Connection Closed</string>
+
+        <string name="err5002">Bluetooth Not Supported in Mobile</string>
+
+        <string name="err5003">Bluetooth Disabled - Enable and Try again</string>
+
+        <string name="err5004">Reader not found while Searching</string>
+
+        <string name="err5005">Reader not Found.</string>
+
+        <string name="err5006">Please Check the Reader is switched on</string>
+
+        <string name="err5014">Exception Raised in Reader Connection.</string>
+
+        <string name="err5015">Exception Raised in Reader Connection.</string>
+
+        <string name="err5018">Insert EMV Card Again</string>
+
+        <string name="err8888">Swipe timeout</string>
+
+        <string name="err5019">Invalid EMV Card. Insert Again</string>
+
+        <string name="err5021">Card Not Swiped Properly. Swipe Again</string>
+
+        <string name="err5022">EMV Card Swiped. Insert Card</string>
+
+        <string name="err5025">Transaction Declined</string>
+
+        <string name="err5026">Transaction is Cancelled by User</string>
+
+        <string name="err5027">Transaction Aborted</string>
+
+        <string name="err5031">Timed Out in Pin Entry on Reader.</string>
+
+        <string name="err5032">Transaction Aborted in Reader</string>
+
+        <string name="err5034">Confirm amount on Pin pad</string>
+
+        <string name="err5035">Timed Out in Amount Confirmation</string>
+
+        <string name="err5036">Transaction Cancelled by user on Reader.</string>
+
+        <string name="err5037">Timeout Reversal Present</string>
+
+        <string name="err5038">Success Transaction Reversal Present</string>
+
+        <string name="err5027_01">EMV Card offline Pin is Entered Wrongly</string>
+
+        <string name="err5027_02">Timeout in Reader on Account Selection</string>
+
+        <string name="err5027_03">Cancel Button is Pressed in Reader on Account Selection</string>
+
+        <string name="err5027_04">Cancel Button is Pressed in Reader on Amount Confirmation Screen</string>
+
+        <string name="err5027_05">Timed Out in Reader on Amount Confirmation Screen</string>
+
+        <string name="err5027_06">EMV Tags are Invalid before Going Online. Transaction is Denied before Going Online</string>
+
+        <string name="err5027_07">Unable to Process EMV Tags Received in Response. Severe error occurred transaction must be aborted</string>
+
+        <string name="err5027_08">Cancel Button is Pressed in Reader on EMV Card Application Selection</string>
+
+        <string name="err5027_09">Unable to Reader EMV Card.</string>
+
+        <string name="err5027_10">EMV Card Application is Empty</string>
+
+        <string name="err5027_11">EMV Card Selected Application is Blocked</string>
+
+        <string name="err5027_12">Amount is not Passed</string>
+
+        <string name="err5027_13">EMV Authentication Process was not Performed.</string>
+
+        <string name="err5027_14">EMV Card is Blocked</string>
+
+        <string name="err5027_15">Card Authentication Failed after 1st Generation AC After Receiving Response from Host because Invalid Host Issuer Scripts or Tags</string>
+
+        <string name="err5027_16">Error after 1st Generation AC After Receiving Response from Host because Invalid Host Issuer Scripts or Tags</string>
+
+        <string name="err5027_17">Invalid Pin Entered in Reader for an EMV Card</string>
+
+        <string name="err5027_18">Invalid Pin Entered in Reader for an EMV Card and Last Attempt is Only Available</string>
+
+        <string name="err5027_19">Invalid EMV Tracks. Try Transaction Again</string>
+
+        <string name="err5027_20">Pin entry time out</string>
+
+        <string name="err5027_21">Invalid Tracks try again</string>
+
+        <string name="err207_01">SESSION ESTABLISHING FAILED! TRY AGAIN!</string>
+
+        <string name="err207_02">SERVER DOWN .PLEASE CONTACT ADMIN</string>
+
+        <string name="err207_03">LACK OF GPRS CONNECTION! TRY AGAIN!</string>
+
+        <string name="err207_04">NULL POINTER</string>
+
+        <string name="err207_05">Java Handled Exception</string>
+
+        <string name="err207_06">INVALID USERNAME OR PASSWORD</string>
+
+        <string name="err207_07">SORRY SESSION FREEZED</string>
+
+        <string name="err207_08">Invalid XML Format</string>
+
+        <string name="err207_09">ERROR : SORRY YOUR ACCOUNT IS FROZEN</string>
+
+        <string name="err207_10">ERROR : SORRY SESSION TIMEOUT</string>
+
+        <string name="err207_11">INFO : INVALID REQUEST</string>
+
+        <string name="err207_12">Unknown Error</string>
+
+
+        <string name="waiting_for_card">Please insert or swipe card now.</string>
+
+        <string name="no_card_detected">No card detected. Please insert or swipe card again and press check card.</string>
+
+        <string name="icc_card_inserted">ICC Card Inserted</string>
+
+        <string name="card_inserted">Please use mag card</string>
+
+        <string name="pin_entered">PIN entered</string>
+
+        <string name="pin_bypassed">pin bypassed</string>
+
+        <string name="pin_canceled">PIN canceled</string>
+
+        <string name="pin_timeout">PIN timeout</string>
+
+        <string name="key_error">Key error</string>
+
+        <string name="pin_wrong_pin_length">Pin wrong length</string>
+
+        <string name="nfc_waiting_for_card">waiting for card</string>
+
+        <string name="nfc_waiting_for_card_removal">waiting for card removal</string>
+
+        <string name="nfc_card_removed">card removed</string>
+
+        <string name="nfc_timeout">timeout</string>
+
+        <string name="nfc_card_not_supported">card not supported</string>
+
+        <string name="nfc_multiple_card_detected">multiple card detected</string>
+
+        <string name="nfc_card_detected">card detected</string>
+
+        <string name="no_pin">No PIN</string>
+
+        <string name="bad_swipe">Bad Swipe. Please swipe again.</string>
+
+        <string name="card_swiped">Card Swiped: </string>
+
+        <string name="mag_head_fail">Magnetic head fail</string>
+
+        <string name="card_no_response">Check card no response</string>
+
+        <string name="card_swiped_track2_only">Card Swiped (Track 2 only):\n</string>
+
+        <string name="nfc_track2">Card Tapped (Track 2 Emulation):\n</string>
+
+        <string name="use_icc_card">Please use ICC card</string>
+
+        <string name="format_id">Format ID: </string>
+
+        <string name="masked_pan">Masked PAN: </string>
+
+        <string name="expiry_date">Expiry Date: </string>
+
+        <string name="cardholder_name">Cardholder Name: </string>
+
+        <string name="ksn">KSN: </string>
+
+        <string name="pin_ksn">PIN KSN:</string>
+
+        <string name="track_ksn">Track KSN:</string>
+
+        <string name="emv_ksn">EMV KSN:</string>
+
+        <string name="uid">UID:</string>
+
+        <string name="service_code">Service Code: </string>
+
+        <string name="track_1_length">Track 1 Length: </string>
+
+        <string name="track_2_length">Track 2 Length: </string>
+
+        <string name="track_3_length">Track 3 Length: </string>
+
+        <string name="encrypted_tracks">Encrypted Tracks: </string>
+
+        <string name="encrypted_track_1">Encrypted Track 1: </string>
+
+        <string name="encrypted_track_2">Encrypted Track 2: </string>
+
+        <string name="encrypted_track_3">Encrypted Track 3: </string>
+
+        <string name="partial_track">Partial Track: </string>
+
+        <string name="card_data">Card Data: </string>
+
+        <string name="start_emv_fail">Start EMV failed</string>
+
+        <string name="start_emv_success">Start EMV success</string>
+
+        <string name="app_version">App Version: </string>
+
+        <string name="bootloader_version">Bootloader Version: </string>
+
+        <string name="firmware_version">Firmware Version: </string>
+
+        <string name="usb">USB: </string>
+
+        <string name="charge">Charge: </string>
+
+        <string name="battery_level">Battery Level: </string>
+
+        <string name="hardware_version">Hardware Version: </string>
+
+        <string name="supported_track">Supported Track: </string>
+
+        <string name="track_1_supported">Track 1 Supported: </string>
+
+        <string name="track_2_supported">Track 2 Supported: </string>
+
+        <string name="track_3_supported">Track 3 Supported: </string>
+
+        <string name="unknown">Unknown</string>
+
+        <string name="set_amount">Set Amount</string>
+
+        <string name="amount_confirmed">Amount confirmed</string>
+
+        <string name="amount_canceled">Amount cancelled</string>
+
+        <string name="please_confirm_amount">Please confirm amount on WisePad</string>
+
+        <string name="enter_pin">Please enter PIN on WisePad</string>
+
+        <string name="online_process_requested">Online process requested.</string>
+
+        <string name="request_data_to_server">Request data to server.</string>
+
+        <string name="replied_connected">Replied connected.</string>
+
+        <string name="replied_success">Replied success.</string>
+
+        <string name="replied_failed">Replied failed.</string>
+
+        <string name="batch_data">Batch Data:\n</string>
+
+        <string name="transaction_log">Transaction Log:\n</string>
+
+        <string name="reversal_data">Reversal Data:\n</string>
+
+        <string name="please_select_app">Please select app</string>
+
+        <string name="transaction_result">Transaction Result</string>
+
+        <string name="transaction_approved">Approved</string>
+
+        <string name="transaction_terminated">Terminated</string>
+
+        <string name="transaction_declined">Offline Declined</string>
+
+        <string name="transaction_cancel">Cancel</string>
+
+        <string name="transaction_capk_fail">Fail (CAPK fail)</string>
+
+        <string name="transaction_not_icc">Please use Mag Card</string>
+
+        <string name="transaction_app_fail">Card Block</string>
+
+        <string name="transaction_device_error">Device Error</string>
+
+        <string name="transaction_application_blocked">transaction application blocked</string>
+
+        <string name="transaction_icc_card_removed">transaction icc card removed</string>
+
+        <string name="transaction_card_blocked">transaction card blocked</string>
+
+        <string name="transaction_condition_not_satisfied">transaction condition not satisfied</string>
+
+        <string name="transaction_invalid_icc_data">transaction invalid icc data</string>
+
+        <string name="transaction_card_not_supported">transaction card not supported</string>
+
+        <string name="transaction_missing_mandatory_data">transaction missing mandatory data</string>
+
+        <string name="transaction_no_emv_apps">transaction no emv apps</string>
+
+        <string name="tlv_list">TLV List:\n</string>
+
+        <string name="advice_process">Advice Process.</string>
+
+        <string name="call_your_bank">Please call your bank</string>
+
+        <string name="request_terminal_time">Request Terminal Time. Replied </string>
+
+        <string name="confirm_amount">Confirm amount</string>
+
+        <string name="amount">Amount</string>
+
+        <string name="amount_ok">Amount OK?</string>
+
+        <string name="approved">Approved</string>
+
+        <string name="cancel_or_enter">Cancel or Enter</string>
+
+        <string name="card_error">Card error</string>
+
+        <string name="declined">Offline Declined</string>
+
+        <string name="enter_amount">Please enter amount</string>
+
+        <string name="incorrect_pin">Incorrect PIN</string>
+
+        <string name="insert_card">Please insert card</string>
+
+        <string name="not_accepted">Not accepted</string>
+
+        <string name="pin_ok">PIN OK</string>
+
+        <string name="wait">Please wait…</string>
+
+        <string name="processing_error">Processing error</string>
+
+        <string name="remove_card">Please remove card</string>
+
+        <string name="use_chip_reader">Please use chip reader</string>
+
+        <string name="use_mag_stripe">Please use mag stripe</string>
+
+        <string name="try_again">Please try again</string>
+
+        <string name="refer_payment_device">Please refer to your payment device</string>
+
+        <string name="try_another_interface">Please try another interface</string>
+
+        <string name="online_required">Online required</string>
+
+        <string name="processing">Processing…</string>
+
+        <string name="welcome">Welcome</string>
+
+        <string name="present_one_card">Please present only one card</string>
+
+        <string name="capk_failed">CAPK loading failed</string>
+
+        <string name="last_pin_try">Last PIN try</string>
+
+        <string name="select_account">select account</string>
+
+        <string name="battery_low">Device battery low, please charge</string>
+
+        <string name="battery_critically_low">Device battery critically low and powered off</string>
+
+        <string name="no_device_detected">No device detected.</string>
+
+        <string name="device_plugged">Device plugged.</string>
+
+        <string name="device_unplugged">Device unplugged.</string>
+
+        <string name="command_not_available">Command not available</string>
+
+        <string name="device_no_response">Device no response</string>
+
+        <string name="device_reset">Device reset</string>
+
+        <string name="unknown_error">Unknown error</string>
+
+        <string name="device_busy">Device Busy</string>
+
+        <string name="out_of_range">Input out of range.</string>
+
+        <string name="invalid_format">Input invalid format.</string>
+
+        <string name="zero_values">Input are zero values.</string>
+
+        <string name="input_invalid">Input invalid.</string>
+
+        <string name="cashback_not_supported">Cashback not supported.</string>
+
+        <string name="crc_error">CRC Error.</string>
+
+        <string name="comm_error">Communication Error.</string>
+
+        <string name="fail_to_start_bluetooth_v2">Failed to connect to the WisePad, please make sure the WisePad is switched on.</string>
+
+        <string name="invalid_function">Invalid function</string>
+
+        <string name="comm_link_uninitialized">Comm link uninitialized</string>
+
+        <string name="bluetooth_already_started">Bluetooth already started</string>
+
+        <string name="fail_to_start_audio">Fail to start audio</string>
+
+        <string name="fail_to_start_bluetooth_v4">Fail to start bluetooth 4.0</string>
+
+        <string name="bluetooth_4_not_supported">Bluetooth 4 not supported</string>
+
+        <string name="device_off">Device powered off.</string>
+
+        <string name="get_info">Get Device Info</string>
+
+        <string name="clear_log">Clear Log</string>
+
+        <string name="check_card">Start</string>
+
+        <string name="start_emv">Start EMV</string>
+
+        <string name="cancel">Cancel</string>
+
+        <string name="pin">PIN</string>
+
+        <string name="cashback_amount">Cashback</string>
+
+        <string name="confirm">Confirm</string>
+
+        <string name="bypass">PIN bypass</string>
+
+        <string name="decline">Decline</string>
+
+        <string name="getting_info">Getting device info…</string>
+
+        <string name="starting">Starting…</string>
+
+        <string name="power_on_icc">Power on ICC</string>
+
+        <string name="power_off_icc">Power off ICC</string>
+
+        <string name="send_apdu">Send APDU</string>
+
+        <string name="power_on_icc_success">Power on ICC Success</string>
+
+        <string name="power_on_icc_failed">Power on ICC Failed</string>
+
+        <string name="power_off_icc_success">Power off ICC Success</string>
+
+        <string name="power_off_icc_failed">Power off ICC Failed</string>
+
+        <string name="apdu_result">APDU Result:</string>
+
+        <string name="atr">ATR:</string>
+
+        <string name="apdu_failed">APDU Failed</string>
+
+        <string name="sending">Sending:</string>
+
+        <string name="atr_length">ATR Length:</string>
+
+        <string name="get_ksn">Get KSN</string>
+
+        <string name="getting_ksn">Getting KSN…</string>
+
+        <string name="powering_on_icc">Powering on ICC…</string>
+
+        <string name="powering_off_icc">Powering off ICC…</string>
+
+        <string name="card_not_supported">Card not support</string>
+
+        <string name="missing_mandatory_data">Missing mandatory data</string>
+
+        <string name="card_blocked_or_no_evm_apps">Please use Magnetic card</string>
+
+        <string name="invalid_icc_data">Invalid ICC data</string>
+
+        <string name="power_on_nfc">Power on NFC</string>
+
+        <string name="power_off_nfc">Power off NFC</string>
+
+        <string name="data_exchange">Data exchange</string>
+
+        <string name="power_on_nfc_success">Power on NFC Success</string>
+
+        <string name="power_on_nfc_failed">Power on NFC Failed</string>
+
+        <string name="power_off_nfc_success">Power off NFC Success</string>
+
+        <string name="power_off_nfc_failed">Power off NFC Failed</string>
+
+        <string name="data_received">Data received:</string>
+
+        <string name="data_length">Data length:</string>
+
+        <string name="data_exchange_failed">Data exchange failed</string>
+
+        <string name="response">Response:</string>
+
+        <string name="card_emulation">Card Emulation</string>
+
+        <string name="card_emulation_result">Card emulation result:</string>
+
+        <string name="card_emulation_failed">Card emulation failed</string>
+
+        <string name="performing_card_emulation">Performing card emulation…</string>
+
+        <string name="app_name_paused">aLogcat (paused)</string>
+
+        <string name="app_prefs">aLogcat - Preferences</string>
+
+        <string name="ok">Okay</string>
+
+        <string name="fatal_title">Fatal</string>
+
+        <string name="error_title">Error</string>
+
+        <string name="warn_title">Warning</string>
+
+        <string name="info_title">Information</string>
+
+        <string name="verbose_title">Verbose</string>
+
+        <string name="debug_title">Debug</string>
+
+        <string name="filter_menu">Filter (%s)</string>
+
+        <string name="filter_dialog_title">Log Filter</string>
+
+        <string name="filter_menu_empty">Filter</string>
+
+        <string name="filter_dialog_text">A log filter can be a simple substring or a Java-conforming regular expression.</string>
+
+        <string name="pattern_error_text">Invalid regular expression</string>
+
+        <string name="clear">Clear</string>
+
+        <string name="brief_title">Brief</string>
+
+        <string name="process_title">Process</string>
+
+        <string name="tag_title">Tag</string>
+
+        <string name="thread_title">Thread</string>
+
+        <string name="raw_title">Raw</string>
+
+        <string name="time_title">Time</string>
+
+        <string name="long_title">Long</string>
+
+        <string name="reading_logs">Reading logs, please wait.</string>
+
+        <string name="share_menu">Share</string>
+
+        <string name="play_menu">Play</string>
+
+        <string name="pause_menu">Pause</string>
+
+        <string name="jump_start_menu">Top</string>
+
+        <string name="jump_end_menu">Bottom</string>
+
+        <string name="main_title">Main</string>
+
+        <string name="events_title">Events</string>
+
+        <string name="radio_title">Radio</string>
+
+        <string name="small_title">Small</string>
+
+        <string name="medium_title">Medium</string>
+
+        <string name="large_title">Large</string>
+
+        <string name="clear_menu">Clear</string>
+
+        <string name="save_menu">Save</string>
+
+        <string name="prefs_menu">Preferences</string>
+
+        <string name="saving_log">Saving log to: %s, please wait</string>
+
+        <string name="threadtime_title">Thread Time</string>
+
+        <string name="black_title">Black</string>
+
+        <string name="white_title">White</string>
+
+        <string name="gray_title">Gray</string>
+
+        <string name="apply_as_regexp">Apply as regular expression?</string>
+
+        <string name="title_activity_set_gate_way">SetGateWay</string>
+
+        <string name="action_settings">Settings</string>
+
+        <string name="hello_world">Hello world!</string>
+
+        <string name="device_comm_error">device communication error</string>
+
+        <string name="failed">failed</string>
+
+        <string name="no_update_required">no update required</string>
+
+        <string name="server_comm_error">server communication error</string>
+
+        <string name="setup_error">setup error</string>
+
+        <string name="stopped">stopped</string>
+
+        <string name="canceled_please_try_again"> canceled, please try again</string>
+
+        <string name="bluetooth_permission_denied">bluetooth permission denied</string>
+
+        <string name="channel_buffer_full">channel buffer full permission denied</string>
+
+        <string name="swipe">swipe</string>
+
+        <string name="insert">insert</string>
+
+        <!-- Credit Sale View -->
+
+
+        <string name="wisepad_pairing_in_process_press_back_key_twice_in_succession_to_terminate_the_transaction">wisepad pairing in process… press back key twice in succession to terminate the transaction.</string>
+
+        <string name="processing_card_in_progress_press_back_key_twice_in_succession_to_terminate_the_transaction">processing card in progress… press back key twice in succession to terminate the transaction.</string>
+
+        <string name="transaction_canceled">transaction canceled</string>
+
+        <string name="do_you_wish_to_cancel_the_transaction">do you wish to cancel the transaction?</string>
+
+        <string name="no">no</string>
+
+        <string name="connecting">connecting</string>
+
+        <string name="connect">connect</string>
+
+        <string name="press_start">press start</string>
+
+        <string name="connecting_device">connecting device</string>
+
+        <string name="device_not_connected">device not connected</string>
+
+        <string name="device_connected">device connected</string>
+
+        <string name="Paired_devices">Paired devices</string>
+
+        <string name="connect_device">connect device</string>
+
+        <string name="press_start_to_connect">press start to connect…</string>
+
+        <string name="no_paired_wisePad_found_please_pair_the_wisePad_from_your_phones_bluetooth_settings_and_try_again">no paired wisePad found !! please pair the wisePad from your phone\'s bluetooth settings and try again</string>
+
+        <string name="additional_cardholder_details_are_not_required">additional cardholder details are not required</string>
+
+        <string name="additional_cardholder_details_will_have_to_be_entered">additional cardholder details will have to be entered</string>
+
+        <string name="processing_transaction">processing transaction…</string>
+
+        <string name="invalid_tlv_data_format">invalid tlv data format</string>
+
+        <string name="select_the_Currency_for_the_transaction">select the currency for the transaction</string>
+
+        <string name="application_on_the_card_expired">application on the card expired.</string>
+
+        <string name="auto_reversal_successful">auto reversal successful</string>
+
+        <string name="acknowledging_auto_reversal">acknowledging auto reversal…</string>
+
+        <string name="amex_card">amex card</string>
+
+        <string name="please_enter_security_pin_of_your_amex_card">please enter security pin of your amex card</string>
+
+        <string name="invalid_pin_input_should_be_4_digits_in_length">invalid pin input, should be 4 digits in length</string>
+
+        <string name="card_sale">card sale</string>
+
+        <string name="emi">emi</string>
+
+        <string name="preauth">preauth</string>
+
+        <string name="cash_at_pos">Cash at Pos</string>
+
+        <string name="processing_receipt">processing receipt…</string>
+
+        <string name="ic_card_inserted_please_wait">ic card inserted, please wait…</string>
+
+        <string name="please_remove_the_card">please remove the card</string>
+
+        <string name="approved_online_card_declined_transaction">approved online, card declined transaction</string>
+
+        <string name="please_enter_pin_on_wisepad_or_press_enter_green_key_to_bypass_pin">please enter pin on wisepad or press enter (green key) to bypass pin</string>
+
+        <string name="unable_to_detect_the_wisepad_restart_the_device_and_try_reconnecting">unable to detect the wisepad, re-start the device and try reconnecting</string>
+
+        <string name="device_not_found">device not found</string>
+
+        <string name="device_disconnected">device disconnected.</string>
+
+        <string name="device_disconnected_please_ensure_the_connecting_device_is__a_wisepad">device disconnected, please ensure the connecting device is a wisepad</string>
+
+        <string name="unable_to_process_last_transaction">unable to process last transaction</string>
+
+        <string name="host_connecting">host connecting</string>
+
+        <string name="host_online">host online</string>
+
+        <string name="host_offline">host offline</string>
+
+        <string name="next">next</string>
+
+        <string name="receipt">receipt</string>
+
+        <string name="express_checkout">express checkout</string>
+
+        <string name="transaction_total">transaction total</string>
+
+        <string name="start">start</string>
+
+        <string name="start_mag">start-Mag</string>
+
+        <string name="initializing_the_swiper">initializing the swiper</string>
+
+        <string name="please_swipe_insert_chip_card">please swipe/insert chip card</string>
+
+        <string name="stop">stop</string>
+
+        <string name="card_holder">card holder</string>
+
+        <string name="last_4_digits">last 4 digits</string>
+
+        <string name="include">include</string>
+
+        <string name="submit">submit</string>
+
+        <string name="print">print</string>
+
+        <string name="Press_start">Press start…</string>
+
+        <string name="start_1_pairing">start 1 pairing</string>
+
+        <string name="base_amount">base amount</string>
+
+        <string name="tip_amount">tip amount</string>
+
+        <string name="sale_cash">sale cash</string>
+
+        <string name="total_amount">total amount</string>
+
+        <string name="cardholder_mobile_no">cardholder mobile no.</string>
+
+        <string name="email_optional">email (optional)</string>
+
+        <string name="receipt_optional">receipt (optional)</string>
+
+        <string name="notes_optional">notes (optional)</string>
+
+        <string name="close">close</string>
+
+        <string name="acknowledging_card_sale">acknowledging card sale</string>
+
+        <string name="processing_auto_reversal_transaction">processing auto reversal transaction</string>
+
+        <string name="approved_online_card_declined_transaction_press_ok_for_autoreversal">approved online, card declined transaction, press ok for autoreversal</string>
+
+        <string name="press_connect">press connect…</string>
+
+        <string name="please_use_chip_card">please use chip card</string>
+
+        <string name="card_transaction_status">card transaction status</string>
+
+        <string name="authorisation_code">authorisation code</string>
+
+        <string name="receipt_retrieval_no">receipt retrieval no</string>
+
+        <string name="device_detected">device detected</string>
+
+        <string name="please_wait">please wait…</string>
+
+        <string name="emi_term_condition">CUSTOMER CONSENT FOR EMI\n\n#.I have been offered the choice for normal as well as EMI for this purchase and I have chosen EMI\n#.I have understood and accept the terms of EMI scheme and applicable charges mentioned in this charge-slip\n#.EMI conversion subject to banks discretion\n#.Service Tax applicable on interest and processing fees</string>
+
+        <string name="i_agree">i agree to pay as per card issuer agreement</string>
+
+        <string name="filter_amex_pin">0123456789</string>
+
+        <string name="creditsaleswiperfragment_enable_bluetooth">enable bluetooth</string>
+
+        <string name="creditsaleswiperfragment_status">status</string>
+
+        <string name="creditsale_swiperview_lable_enter_pin">enter pin</string>
+
+        <string name="creditsale_swiperview_str_or">or</string>
+
+        <string name="creditsale_swiperview_pin_bypass_disabled">pin bypass disabled</string>
+
+        <!--MSWisepadView-->
+
+
+        <string name="mswisepadview_wisepad_not_connected_please_make_sure_that_the_wisepad_is_switched_on">device not connected. please make sure device is switched on.</string>
+
+        <string name="mswisepadview_wisepad_not_connected_please_try_to_reconnect_the_device">device having auto connectivity for serial.</string>
+
+        <string name="mswisepadview_connecting_to_wisepad_if_its_taking_longer_than_usual_please_restart_the_wisepad_and_try_reconnecting">connecting to device, if it\'s taking longer than usual, please restart the device and try re-connecting.</string>
+
+        <string name="mswisepadview_select_wisepad">select device</string>
+
+        <!--creditsale_cardholderdetailsview-->
+
+
+        <string name="creditsale_cardholderdetailsview_authorising">authorising</string>
+
+        <string name="creditsale_cardholderdetailsview_card_holder">card holder</string>
+
+        <string name="creditsale_cardholderdetailsview_expiry_date">expiry date</string>
+
+        <string name="creditsale_cardholderdetailsview_last_4_digits">last 4 digits</string>
+
+        <!--CreditSaleSaleCashFragment-->
+
+
+        <string name="creditsalesalecashfragment_amount_or_sale_cash_is_mandatory_for_this_transaction">amount or sale cash is mandatory for this transaction.</string>
+
+        <string name="creditsalesalecashfragment_you_need_to_enter_a_minimum_amount_of_at_least_inr_001_to_proceed">invalid amount! minimum amount should be %s 1.00 to proceed.</string>
+
+        <string name="creditsalesalecashfragment_Invalid_sale_cash_amount_amount_can_not_exceed_INR_1000" formatted="false">invalid sale cash amount! amount can not exceed %s %s.</string>
+
+        <!--CreditSaleDeclineActivity-->
+
+
+        <string name="creditsaledeclineactivity_decline">declined</string>
+
+        <string name="mswipe">mswipe</string>
+
+        <!--creditsale_singnatureview-->
+
+
+        <string name="creditsale_singnatureview_transaction_approved">approved</string>
+
+        <string name="creditsale_singnatureview_please_remove_the_card">please remove the card</string>
+
+        <string name="creditsale_singnatureview_clear">clear</string>
+
+        <string name="creditsale_singnatureview_print">print</string>
+
+        <!--CreditSaleSignatureActivity-->
+
+
+        <string name="creditsalesignatureactivity_card_swiped_successfully">card swiped successfully</string>
+
+        <string name="creditsalesignatureactivity_please_remove_the_card">please remove the card</string>
+
+        <string name="creditsalesignatureactivity_processing_chargeslip">processing chargeslip</string>
+
+        <string name="creditsalesignatureactivity_please_sign_the_receipt_to_proceed">please sign the receipt to proceed.</string>
+
+        <string name="creditsalesignatureactivity_paired_devices">Paired devices</string>
+
+        <string name="signature">signature</string>
+
+        <!--creditsale_amexcardpinentryview-->
+
+
+        <string name="creditsale_amexcardpinentryview_enter_pin_of_amex">please enter security pin of your amex card.</string>
+
+        <!--EmiOptionSelectionFragment-->
+
+
+        <string name="emioptionselectionfragment_please_select_emi_option">please select an emi option.</string>
+
+        <string name="emioptionselectionfragment_emi_tenure">emi tenure</string>
+
+        <string name="emioptionselectionfragment_bank_interest_rate">bank interest rate</string>
+
+        <string name="emioptionselectionfragment_total_payable_amount">total payable amt</string>
+
+        <string name="emioptionselectionfragment_cash_back_rate">cash back rate</string>
+
+        <string name="emioptionselectionfragment_cash_back_amt">cash back amt</string>
+
+        <!--emisale_amountview-->
+
+
+        <string name="emisale_amountview_amount">amount</string>
+
+        <string name="emisale_amountview_first_6_digts">first 6 digits</string>
+
+        <!--EmiSaleAmountFragment-->
+
+
+        <string name="emisaleamountfragment_first_6_digits_of_card_required">first 6 digits of card required.</string>
+
+        <string name="emisaleamountfragment_you_need_to_enter_a_minimum_amount_of_at_least_inr_001_to_proceed">invalid amount! minimum amount should be %s 1.00 to proceed.</string>
+
+        <!--emi_termconditionview-->
+
+
+        <string name="emi_termconditionview_emi_term_condition">CUSTOMER CONSENT FOR EMI\n\n1.I have been offered the choice for normal as well as EMI for this purchase and I have chosen EMI\n2.I have understood and accept the terms of EMI scheme and applicable charges mentioned in this charge-slip\n3.EMI conversion subject to banks discretion\n4.Service Tax applicable on interest and processing fees</string>
+
+        <string name="emi_termconditionview_i_agree">i agree to pay as per card issuer agreement</string>
+
+        <string name="emi_termconditionview_emi">emi</string>
+
+        <!--LAST TRANSACTION-->
+
+
+        <!--lasttransaction_view-->
+
+
+        <string name="lasttransaction_view_status">status</string>
+
+        <string name="lasttransaction_date">date</string>
+
+        <string name="lasttransaction_total_amount">total amount</string>
+
+        <string name="lasttransaction_type">type</string>
+
+        <string name="lasttransaction_card_holder">card holder</string>
+
+        <string name="lasttransaction_last_4_digits">last 4 digits</string>
+
+        <string name="lasttransaction_auth_code">auth code</string>
+
+        <string name="lasttransaction_rr_no">rr no.</string>
+
+        <string name="lasttransaction_stan_id">stan id</string>
+
+        <string name="lasttransaction_voucher">voucher</string>
+
+        <string name="lasttransaction_transaction_message">trx msg</string>
+
+        <string name="lasttransaction_print">print</string>
+
+        <string name="lasttransaction_notes">notes</string>
+
+        <string name="lasttransaction_resend_receipt">resend receipt?</string>
+
+        <!--LastTransactionActivity-->
+
+
+        <string name="lasttransactionactivity_last_tx">last transaction</string>
+
+        <string name="lasttransactionactivity_would_you_like_to_resend_the_receipt_for_the_selected_transaction">would you like to resend the receipt for the selected transaction?</string>
+
+        <string name="lasttransactionactivity_unable_to_process_last_transaction">unable to process last transaction.</string>
+
+        <string name="lasttransactionactivity_the_receipt_was_successfully_resent">the receipt was successfully resent.</string>
+
+        <string name="lasttransactionactivity_paired_devices">Paired devices</string>
+
+        <!--VOID SALE-->
+
+
+        <!--voidsale_amountview-->
+
+
+        <string name="voidsale_amountview_amount">amount</string>
+
+        <string name="voidsale_amountview_last_4_digits">last 4 digits</string>
+
+        <!--VoidSaleAmountFragment-->
+
+
+        <string name="voidsaleamountfragment_you_need_to_enter_a_minimum_amount_of_at_least_inr_001_to_proceed">invalid amount! minimum amount should be %s 1.00 to proceed.</string>
+
+        <string name="voidsaleamountfragment_invalid_last_4_digits">invalid last 4 digits.</string>
+
+        <string name="voidsaleamountfragment_the_void_sale_transaction_was_not_processed_successfully_please_try_again">the void sale transaction was not processed successfully. please try again.</string>
+
+        <!--voidsale_transactionapprovalview-->
+
+
+        <string name="voidsale_transactionapprovalview_approved">approved</string>
+
+        <string name="voidsale_transactionapprovalview_status">status</string>
+
+        <string name="voidsale_transactionapprovalview_tx_date">tx date</string>
+
+        <string name="voidsale_transactionapprovalview_last_4_digits">last 4 digits</string>
+
+        <string name="voidsale_transactionapprovalview_total_amount">total amount</string>
+
+        <string name="voidsale_transactionapprovalview_auth_code">auth code</string>
+
+        <string name="voidsale_transactionapprovalview_receipt_retrieval_no">receipt retrieval no</string>
+
+        <!--voidsale_transactiondetailsview-->
+
+
+        <string name="voidsale_transactiondetailsview_confirm_void_transaction">confirm void transaction?</string>
+
+        <string name="voidsale_transactiondetailsview_status">status</string>
+
+        <string name="voidsale_transactiondetailsview_tx_date">tx date</string>
+
+        <string name="voidsale_transactiondetailsview_last_4_digits">last 4 digits</string>
+
+        <string name="voidsale_transactiondetailsview_total_amount">total amount</string>
+
+        <string name="voidsale_transactiondetailsview_auth_code">auth code</string>
+
+        <string name="voidsale_transactiondetailsview_receipt_retrieval_no">receipt retrieval no</string>
+
+        <!--VoidSaleActivity-->
+
+
+        <string name="void_sale">void sale</string>
+
+        <string name="void_transaction">void transaction</string>
+
+        <string name="voidsaleactivity_the_void_sale_transaction_was_not_processed_successfully_please_try_again">the void sale transaction was not processed successfully. please try again.</string>
+
+        <string name="voidsaleactivity_the_otp_was_not_processed_successfully_please_try_again">the void sale transaction was not processed successfully. please try again.</string>
+
+        <!--GetVoidSaleDetailsController-->
+
+
+        <string name="the_void_sale_transaction_was_not_processed_successfully_please_try_again">otp was not processed successfully. please try again.</string>
+
+        <!--deviceinfo_view-->
+
+
+        <string name="deviceinfo_view_emv_ksn">emv ksn:</string>
+
+        <string name="deviceinfo_view_track_ksn">track ksn:</string>
+
+        <string name="deviceinfo_view_battery_level">battery level: </string>
+
+        <string name="deviceinfo_view_firm_ware">firmware version: </string>
+
+        <string name="deviceinfo_view_connecting_device">connecting device</string>
+
+        <!--DeviceInfoActivity-->
+
+
+        <string name="deviceinfoactivity_info">info</string>
+
+        <string name="deviceinfoactivity_device_info">device info</string>
+
+        <!-- PRINTER -->
+
+
+        <string name="connecting_to_printer_if_its_taking_longer_than_usual_please_restart_the_printer_and_try_reconnecting">connecting to printer, if it\'s taking longer than usual, please restart the printer and try re-connecting.</string>
+
+        <string name="no_paired_printer_found_please_pair_the_printer_from_your_phones_bluetooth_settings_and_try_again">no paired printer found !! please pair the printer from your phone\'s bluetooth settings and try again.</string>
+
+        <string name="unable_to_connect_to_the_bluetooth_printer">unable to connect to the bluetooth printer.</string>
+
+        <string name="printer_not_connected_please_make_sure_that_the_printer_is_switched_on">printer not connected. please make sure printer is switched on.</string>
+
+        <string name="printing_in_process">printing in progress</string>
+
+        <string name="product_id">product id:</string>
+
+        <!--<string name="bootloader_version">bootloader version: </string>-->
+
+
+        <!--<string name="hardware_version">gardware version: </string>-->
+
+
+        <!--<string name="usb">USB: </string>-->
+
+
+        <!--<string name="charge">charge: </string><string name="battery_level">battery level: </string>-->
+
+
+        <string name="printer_command_success">printer command success</string>
+
+        <string name="no_paper">no paper</string>
+
+        <string name="wrong_printer_cmd">wrong printer command</string>
+
+        <string name="printer_overheat">printer overheat</string>
+
+        <string name="printer_battery_low">device battery low, please charge</string>
+
+        <string name="printer_battery_critically_low">device battery critically low and powered off</string>
+
+        <string name="printer_unknown_error">unknown error</string>
+
+        <string name="printer_command_not_available">command not available</string>
+
+        <string name="printer_device_no_response">no response from device</string>
+
+        <string name="printer_device_busy">device busy</string>
+
+        <string name="printer_out_of_range">input out of range</string>
+
+        <string name="printer_input_invalid">input invalid</string>
+
+        <string name="printer_crc_error">CRC error</string>
+
+        <string name="printer_fail_to_start_bluetooth">fail to start bluetooth.</string>
+
+        <string name="printer_comm_link_uninitialized">comm link uninitialized</string>
+
+        <string name="printer_bluetooth_already_started">bluetooth already started</string>
+
+        <string name="request_printer_data">request printer data:</string>
+
+        <string name="request_reprint_data">request reprint data:</string>
+
+        <string name="fail_to_start_bluetooth">fail to start bluetooth.</string>
+
+        <string name="no_paired_printer_device_found">no paired printer device found.</string>
+
+        <string name="no_than_one_paried_printer_found">no than one paried printer found.</string>
+
+        <!--PREAUTH COMPLETION-->
+
+
+        <string name="preauth_menu">Preauth Menu</string>
+
+        <string name="preauthcompletion_auth_code">auth code</string>
+
+        <string name="preauthcompletion_proceed_to_preauth_completion" formatted="false">proceed to preauth completion of %s %s for the transaction auth code %s ?</string>
+
+        <string name="preauthcompletion_fetching_transaction_details">fetching transaction details…</string>
+
+        <string name="preauthcompletion_invalid_authcode">Please enter valid Authcode ID</string>
+
+        <string name="preauthcompletion_invalid_amount">invalid amount! minimum amount should be %s 1.00 to proceed</string>
+
+        <string name="preauthcompletion_please_enter_valid_amount">please enter valid amount. The preauth completion amount cannot exceed preauth sale amount</string>
+
+        <string name="preauthcompletion_selected_transaction_dated" formatted="false">would you like to use preauth completion for the selected transaction dated %s of %s %s for the transaction auth code %s ?</string>
+
+        <string name="preauthcompletion_unable_to_show_the_preauth_data_please_contact_support">unable to show the PreAuth data, please contact support</string>
+
+        <string name="preauthcompletion_processing_preauth_completion">processing preauth completion</string>
+
+        <string name="preauthcompletion_error_processing_preauth_completion">the preauth sale was not processed successfully please try again</string>
+
+        <!--preauthcompletion_inputdetailsview-->
+
+
+        <string name="preauthcompletion_inputdetailsview_amount">amount</string>
+
+        <string name="preauthcompletion_inputdetailsview_last_4_digits">last 4 digits</string>
+
+        <!--PreauthCompletionInputDetailsFragment-->
+
+
+        <string name="preauthcompletioninputdetailsfragment_you_need_to_enter_a_minimum_amount_of_at_least_inr_001_to_proceed">invalid amount! minimum amount should be %s 1.00 to proceed</string>
+
+        <string name="preauthcompletioninputdetailsfragment_invalid_last_4_digits">invalid last 4 digits</string>
+
+        <!--preauthcompletion_txtapprovalview-->
+
+
+        <string name="preauthcompletion_txtapprovalview_approved">approved</string>
+
+        <string name="preauthcompletion_txtapprovalview_print">print</string>
+
+        <!--PreauthCompletionTxtApprovalFragment-->
+
+
+        <string name="preauthcompletiontxtapprovalfragment_paired_devices">Paired devices</string>
+
+        <!--preauthcompletion_txtdetailsview-->
+
+
+        <string name="preauthcompletion_txtdetailsview_amount">amount</string>
+
+        <string name="preauthcompletion_txtdetailsview_last_4_digits">last 4 digits</string>
+
+        <string name="preauthcompletion_txtdetailsview_auth_code">auth code</string>
+
+        <string name="preauthcompletion_txtdetailsview_receipt_retrieval_no">receipt retrieval no</string>
+
+        <string name="preauthcompletion_txtdetailsview_invoice_no">prizm invoice no.</string>
+
+        <string name="preauthcompletion_txtdetailsview_tx_date">tx date</string>
+
+        <!--PreauthCompletionTxtDetailsFragment-->
+
+
+        <string name="preauthcompletiontxtdetailsfragment_you_need_to_enter_a_minimum_amount_of_at_least_inr_001_to_proceed">invalid amount! minimum amount should be %s 1.00 to proceed</string>
+
+        <string name="preauthcompletiontxtdetailsfragment_please_enter_a_valid_amount_the_preauth_amount_cannot_exceed_the_preauth_sale_amount">please enter a valid amount. the preauth amount cannot exceed the preauth sale amount</string>
+
+        <string name="preauthcompletiontxtdetailsfragment_the_preauth_sale_was_not_processed_successfully_please_try_again">the preauth sale was not processed successfully. please try again</string>
+
+        <!--PreauthCompletionActivity-->
+
+
+        <string name="preauth_completion">preauth complete</string>
+
+        <string name="preauthcompletionactivity_the_preauth_sale_was_not_processed_successfully_please_try_again">the preauth sale was not processed successfully. please try again</string>
+
+        <string name="preauthcompletionactivity_unable_to_show_the_preAuth_data_please_contact_support">unable to show the PreAuth data, please contact support</string>
+
+        <!--GetPreAuthDetailsController-->
+
+
+        <string name="the_preauth_sale_was_not_processed_successfully_please_try_again">the preauth sale was not processed successfully. please try again</string>
+
+        <string name="menu_pre_auth_transaction">preauth</string>
+
+        <string name="menu_preauth_completion">preauth completion</string>
+
+        <!-- CASH SALE or Banksale -->
+
+
+        <string name="please_enter_valid_client_id">Please enter a valid Client Id.</string>
+
+        <string name="cash_sale">cash sale</string>
+
+        <string name="bank_sale">bank sale</string>
+
+        <!--cashsale_singnature-->
+
+
+        <string name="cashsale_singnature_transaction_approved">approved</string>
+
+        <string name="cashsale_singnature_card_swiped_successfully">card swiped successfully</string>
+
+        <string name="cashsale_singnature_clear">clear</string>
+
+        <string name="cashsale_singnature_print">print</string>
+
+        <!--CashSaleSignatureActivity-->
+
+
+        <string name="cashsalesignatureactivity_please_sign_the_receipt_to_proceed">please sign the receipt to proceed.</string>
+
+        <string name="cashsalesignatureactivity_receipt_uploaded_successfully">receipt uploaded successfully.</string>
+
+        <string name="cashsalesignatureactivity_paired_devices">Paired devices</string>
+
+        <string name="error_in_uploading_the_receipt_to_server">error in uploading the receipt to mswipe server.</string>
+
+        <string name="loginactivity_disclaimer_message">You have to do login just once and reuse the session details received in response for accessing the other featured of the SDK, the Session and Reference_id can be saved in preference and be reused, this details would not expired until you login or change the password on this particular device, and are unique for every device.</string>
+
+        <string name="cardsaleactivity_disclaimer_msg">You can use the option available on the screen for Gateway connection concurrently while setting up the transaction data, this will speeden up the over all latency of transaction process throughout.</string>
+
+        <string name="cardsaleactivity_wisepadamountset_msg">If the AutoConnect is set to true the device has already connected it would call checkCard, if not it will first initiated the connection by calling startSerial and if the checkCardAfterConnection is set to true(through initiateWisepadConnection) then the SDK will call up checkCard internally.</string>
+
+        <string name="cardsaleactivity_cardswiperead_msg_CreditSaleActivity">CreditSaleActivity Screen \n\n swipe card successfull, select ok to post the details online</string>
+
+        <string name="cardsaleactivity_cardinsertinsert_msg_CreditSaleActivity">CreditSaleActivity Screen \n\n card insert successfull, select ok to post the details online</string>
+
+        <string name="cardsaleactivity_cardswiperead_msg_CreditSaleSwiperFragment">CreditSaleSwiperFragment Screen \n\n swipe card successfull, select ok to post the details online</string>
+
+        <string name="cardsaleactivity_cardinsertinsert_msg_CreditSaleSwiperFragment">CreditSaleSwiperFragment Screen \n\n card insert successfull, select ok to post the details online</string>
+
+        <string name="otp_sent_message">otp is sent to registered mobile number %s</string>
+
+        <string name="enter_otp">enter otp</string>
+
+        <string name="loginactivity_otp_sent_message">otp is sent to registered mobile number %s</string>
+
+        <string name="historyactivity_card_history">card history</string>
+
+
+</resources>

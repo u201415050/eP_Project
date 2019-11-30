@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "249DEF5C338C8B9F50FB672B20D7AA216FFF50AF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8D36A2E25D1F69289FF5D730990237D3FD9BBC1E" : 0,
+    "249DEF5C338C8B9F50FB672B20D7AA216FFF50AF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "682DD9C9-3D49-4912-8DFA-436162155BC6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8D36A2E25D1F69289FF5D730990237D3FD9BBC1E" : "RCTRealtimeMessaging",
+    "249DEF5C338C8B9F50FB672B20D7AA216FFF50AF" : "RCTRealtimeMessagingIOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RCTRealtimeMessaging",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RCTRealtimeMessaging.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JoaoCaixinha\/RCTRealtimeMessagingIOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "249DEF5C338C8B9F50FB672B20D7AA216FFF50AF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JoaoCaixinha\/RCTRealtimeMessaging.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8D36A2E25D1F69289FF5D730990237D3FD9BBC1E"
+    }
+  ]
+}

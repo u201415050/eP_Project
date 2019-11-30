@@ -1,0 +1,1 @@
+export const CLOSE = require('./icons/close.png'); 
