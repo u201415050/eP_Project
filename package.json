@@ -25,7 +25,7 @@
     "get-dev-paths": "^0.1.1",
     "iconv-lite": "^0.4.24",
     "instabug-reactnative": "^8.1.2",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "moment": "^2.24.0",
     "os": "^0.1.1",
     "prop-types": "^15.7.2",
